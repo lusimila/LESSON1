@@ -37,3 +37,44 @@
 # min_2 = min(c_2)
 # print(f'Порядковые номера минимальных элементов кортежей  с_1 - {c_1.index(min_1)}, c_2 - {c_2.index(min_2)}')
 # print(f'Порядковые номера максимальных элементов кортежей с_1 - {c_1.index(max_1)}, c_2 - {c_2.index(max_2)}')
+
+# 4.
+# Дана строка 'An apple a day keeps the doctor away'
+# Создайте из нее словарь: ключи - элементы строки,
+# значения- количество вхождений данного элемета в строку.
+# a = ' An apple a day keeps the doctor away'
+# a_set = {i: a.count(i) for i in a}
+# print(a_set)
+
+# 2 способ:
+# from collections import Counter
+# a = ' An apple a day keeps the doctor away'
+# counter = Counter(a)
+# print(counter)
+
+# 6
+# Даны 2 списка чисел. В них могут быть одинаковые числа. Посчитать, сколько в списках одинаковых чисел
+# a_1 = set(input().split())
+# a_2 = set(input().split())
+# b = list(a_1 & a_2)
+# print(len(b))
+
+# 7
+# Напишите программу, демонстрирующую работу try/except/finally
+# try:
+#     a = int(input())
+#     b = int(input())   # если пользователь введет не число будет ошибка
+#     c = a/b   # если пользователь введет ноль возникнет ошибка
+# except ValueError:
+#     print("Вы ввели не число")
+# except ZeroDivisionError:
+#     print("Делить на 0 нельзя")
+# except:
+#     print("все остальные ошибки")
+
+# ecть еще дополнительные:
+# else:
+#     print("Ошибок не было")
+# finally:
+#     print("Выполнится в любом случае")
+
