@@ -1,3 +1,1 @@
 print()
-def foo():
-    pass
