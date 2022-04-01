@@ -99,3 +99,6 @@
 for k, v in sonset.items():
     if buy == k:
         bought = pr_3 * v[1] / 100
+
+
+print('hello')
