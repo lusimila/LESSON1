@@ -8,3 +8,14 @@
 #     if sp.count(i) == 1:
 #         sp_1.append(i)
 #         print(sp_1)
+
+# 2.
+# Дан список . Посчитайте, сколько в нем пар элементов, равных друг другу.
+# Считается, что любые 2 элемента, равные друг другу образуют одну пару, которую необходимо посчитать.
+# sp = [int(s) for s in input(). split()]
+# ch_count = 0
+# for i in range(len(sp)):
+#     for j in range(i + 1, len(sp)):
+#         if sp[i] == sp[j]:
+#             ch_count += 1
+# print(ch_count)
