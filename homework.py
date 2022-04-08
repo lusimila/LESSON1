@@ -11,3 +11,11 @@ def num(numbers: list) -> list:
 
 
 print(num([965, 582, 8, 23, 695210]))
+
+
+def task_3(numbers: list) -> list:
+    result = []
+    for number in numbers:
+        if number % 2 == 0:
+            result.append(number//2)
+    return result
